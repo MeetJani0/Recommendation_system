@@ -21,6 +21,7 @@
 3. Receive recommendations based on the content of the input movie.
 ## Dataset
 - The dataset used in this project is the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) from Kaggle, which includes information about 5000 movies.
+- You can download the dataset by clicking here.👆
 ## Model
 - The recommendation system is built on a content-based model, which analyzes movie metadata such as genres, keywords, and overview to suggest similar movies.
 
