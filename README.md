@@ -1,6 +1,6 @@
 # Movie Recommender System
 ## Overview
-- This repository contains a movie recommendation system built using TMDB's 5000 movies dataset.
+- This repository contains a movie recommendation system built using the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) from Kaggle.
 - The recommendation system is based on content-based filtering, leveraging movie metadata to suggest similar movies based on user preferences.
 
 ## Features
@@ -12,7 +12,8 @@
 
 1. Clone this repository to your local machine.
 2. Install the required dependencies by running pip install -r requirements.txt.
-3. Place the movies_dict.pkl and similarity.pkl files in the project directory.
+3. Extract the movies_dict.pkl and similarity.pkl files by running the code provided in Movie_Recommender_system.ipynb.
+4. Place the extracted files in the project directory.
 4. Run the Movie_Recommender_system.py script to start the recommendation system.
 ## Usage
 1. Run the Movie_Recommender_system.py script.
@@ -26,6 +27,7 @@
 ## Files
 - movies_dict.pkl: Contains movie ID, title, tags, and other metadata after preprocessing.
 - similarity.pkl: Contains the similarity (distance) between two movies after preprocessing.
+- Extract the movies_dict.pkl and similarity.pkl files by running the code provided in Movie_Recommender_system.ipynb.
 - Movie_Recommender_system.py: Script to deploy the movie recommender system.
 - Movie_Recommender_system.ipynb: Jupyter notebook containing the content-based recommendation model.
 # Deployment
