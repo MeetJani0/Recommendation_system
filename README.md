@@ -19,8 +19,7 @@
 2. Input your preferred movie title.
 3. Receive recommendations based on the content of the input movie.
 ## Dataset
-- The dataset used in this project is the TMDB 5000 Movie Dataset, which includes information about 5000 movies.
-
+- The dataset used in this project is the [TMDB 5000 Movie Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) from Kaggle, which includes information about 5000 movies.
 ## Model
 - The recommendation system is built on a content-based model, which analyzes movie metadata such as genres, keywords, and overview to suggest similar movies.
 
@@ -34,7 +33,7 @@
 - To deploy the movie recommender system locally, follow these steps:
 
 1. Clone this repository to your local machine.
-2. Install the required dependencies by running pip install -r requirements.txt.
+2. Install the required dependencies.
 3. Place the movies_dict.pkl and similarity.pkl files in the project directory.
 4. Run the Movie_Recommender_system.py script to start the recommendation system.
 
